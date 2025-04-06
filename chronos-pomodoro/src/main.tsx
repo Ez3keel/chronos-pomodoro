@@ -1,7 +1,10 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './App.tsx'
+
+//Para importar o tsx 
+//nesse modo de import é possível usar qualquer nome
+import {App} from './App'
+
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
